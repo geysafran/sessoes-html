@@ -1,0 +1,86 @@
+* {
+    margin: 10px;
+    border-radius: 10px;
+    font-style: Arial;
+    font-size: 1.2rem
+
+}
+body {
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+#corpo {
+    padding: 1px;
+    width: 41vw;
+    background-color:black;
+}
+
+#container {
+    width: 40vw;
+    background-color: rgb(133, 112, 153);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#header {
+    width: 40vw;
+    height: 5vh;
+    background-color: rgb(212, 60, 60);
+    flex: 1;
+
+}
+.menu {
+    width: 100px;
+    height: 200px;
+    max-width: 800px;
+    background-color: blue;
+    justify-content: flex-start;
+
+
+}
+
+#container-2 {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.cabeca{
+
+    background-color: red;
+
+}
+
+.article {
+    height: 100px;
+    background-color: rosybrown;
+
+}
+
+.rodape-local {
+    background-color: rgb(79, 199, 125);
+
+}
+
+.box-right {
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    justify-content: flex-end;
+
+}
+
+#rodape {
+    width: 40vw;
+    background-color: palevioletred;
+    flex: 1;
+
+}
